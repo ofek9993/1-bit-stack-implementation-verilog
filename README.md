@@ -8,4 +8,5 @@ Also i will upload all of my verilog code and verilog test bench, All of these f
 # logical part and electric circuit design
 My 1-bit stack implementation uses the basic stack functions which is push and pop. 
 In this drawing you can easly visualized stack module process 
+
 ![stack_explain](https://user-images.githubusercontent.com/43711624/135645239-aa94e552-c12f-4adb-81f3-e2b93b84e2d1.png)
