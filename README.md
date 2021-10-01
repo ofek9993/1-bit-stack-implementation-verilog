@@ -14,3 +14,7 @@ In first glance you can see that my stack implementation uses 8 one bit register
 Here is a video of my stack module in process to give a better example of what i just explained.
 
 ![stack vid](https://user-images.githubusercontent.com/43711624/135649966-13037c77-5ef8-4030-b010-5c1add473b8f.gif)
+
+# Analyzing verilog gtkwave data
+I recommend to see the verilog V files that where attached to this repositorie to better understand the analyzing process.
+![stack_verilog_gtkwave_1](https://user-images.githubusercontent.com/43711624/135651647-69eb81c4-98b5-4b81-b5ef-95e3f6fe04e4.png)
