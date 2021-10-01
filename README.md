@@ -1,4 +1,4 @@
-# 1-bit-stack-implementation
+# 1-bit-wdith-8-bit-depth-stack-implementation
 
 This project consisnt of 2 parts. 
 In the first part i will describe how i implemented my 1-bit stack design using an electric circuit i build via logisim program.
@@ -7,6 +7,5 @@ Also i will upload all of my verilog code and verilog test bench, All of these f
 
 # logical part and electric circuit design
 My 1-bit stack implementation uses the basic stack functions which is push and pop. 
-In this drawing you can easly visualized stack module process 
-
-![stack_explain](https://user-images.githubusercontent.com/43711624/135645239-aa94e552-c12f-4adb-81f3-e2b93b84e2d1.png)
+In this photo you can easly visualized my stack module process 
+![stack_explain](https://user-images.githubusercontent.com/43711624/135645845-5016d237-bed0-453d-8a91-08b509ce3cfb.png)
