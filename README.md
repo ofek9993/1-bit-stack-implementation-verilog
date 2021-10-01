@@ -1,4 +1,4 @@
-# 1-bit-wdith-8-bit-depth-stack-implementation
+# 1-bit-width-8-bit-depth-stack-implementation
 
 This project consisnt of 2 parts. 
 In the first part i will describe how i implemented my 1-bit stack design using an electric circuit i build via logisim program.
