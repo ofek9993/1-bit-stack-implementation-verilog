@@ -20,8 +20,12 @@ I recommend to see the verilog V files that where attached to this repositorie t
 
 ![stack_verilog_gtkwave_1](https://user-images.githubusercontent.com/43711624/135651647-69eb81c4-98b5-4b81-b5ef-95e3f6fe04e4.png)
 
-Like our logisim circuit we can see here that we have the same variables. Clock variable for our reigisters and Data_in and Data_out that represent "Din" and "Dout" respectively. Also we have our push and pop operations. We can easliy see that in our test bench we perform 7 push and 6 pop operations. At the begining we perform a push operation with the value 0 respectively we can see that "Data_out" is now 0 as well. We can see our stack functionality more clearly in the folloing photo.
+Like our logisim circuit we can see here that we have the same variables. Clock variable for our reigisters and Data_in and Data_out that represent "Din" and "Dout" respectively. Also we have our push and pop operations. We can easliy see that in our test bench we perform 7 push and 6 pop operations. At the begining we performed a push operation with the value 0 respectively we can see that "Data_out" is now 0 as well. We can see our stack functionality more clearly in the folloing photo.
 
 ![stack_verilog_gtkwave_2](https://user-images.githubusercontent.com/43711624/135652962-1353f2d4-e46e-4d2b-b52c-b110eebf9d51.png)
 
-As we can see 
+As we can easily see, Marked by the red line. We performed a push operation and set the value of our Data_in to 1. Later on we see, Marked by the yellow line. That "Data_out" value updates only when we reach the positive edge of the clock. We keep inserting data to our stack and then we perform 6 pop operations. Respectively we can see that all of our data that got inserted to our stack pop's out in exactly like our logisim module.
+
+# verilog files
+
+you can find all of the verilog code i'v wirtten to implement this stack module plus a test bench code. These files will be named stack.v and stack_tb.v for stack module and stack test bench respectively.
