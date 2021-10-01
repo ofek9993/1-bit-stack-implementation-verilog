@@ -17,4 +17,10 @@ Here is a video of my stack module in process to give a better example of what i
 
 # Analyzing verilog gtkwave data
 I recommend to see the verilog V files that where attached to this repositorie to better understand the analyzing process.
+
 ![stack_verilog_gtkwave_1](https://user-images.githubusercontent.com/43711624/135651647-69eb81c4-98b5-4b81-b5ef-95e3f6fe04e4.png)
+
+Like our logisim circuit we can see here that we have the same variables. Clock variable for our rigisters and Data_in and Data_out that represent "Din" and "Dout" respectively also we have our push and pop operations. We can easliy see that in our test bench we perform 7 push and 6 pop operations. At the start we perform a push operation with the value 0 respectively we can see that "Data_out" is now 0 as well. We can see our stack functionality more clearly in the folloing photo.
+
+![stack_verilog_gtkwave_2](https://user-images.githubusercontent.com/43711624/135652962-1353f2d4-e46e-4d2b-b52c-b110eebf9d51.png)
+
