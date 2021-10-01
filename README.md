@@ -24,7 +24,7 @@ Like our logisim circuit we can see here that we have the same variables. Clock 
 
 ![stack_verilog_gtkwave_2](https://user-images.githubusercontent.com/43711624/135652962-1353f2d4-e46e-4d2b-b52c-b110eebf9d51.png)
 
-As we can easily see, Marked by the red line. We performed a push operation and set the value of our Data_in to 1. Later on we see, Marked by the yellow line. That "Data_out" value updates only when we reach the positive edge of the clock. We keep inserting data to our stack and then we perform 6 pop operations. Respectively we can see that all of our data that got inserted to our stack pop's out in exactly like our logisim module.
+As we can easily see, Marked by the red line. We performed a push operation and set the value of our Data_in to 1. Later on we see, Marked by the yellow line. That "Data_out" value updates only when we reach the positive edge of the clock. We keep inserting data to our stack and then we perform 6 pop operations. Respectively we see that all of our data that got inserted to our stack pop's out in exactly like our logisim module.
 
 # verilog files
 
